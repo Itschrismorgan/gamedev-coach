@@ -24,6 +24,10 @@ claude plugin validate .
 
 After adding a new skill, bump `version` in `plugin.json` (and the marketplace entry if pinned), commit, and push; installed users update via `/plugin marketplace update`.
 
+### Deferred
+
+- **Triggering evals (TODO, later).** No skill's `description` has been eval'd yet. Once the pipeline has several skills competing for similar phrasing (concept vs. pillars vs. core-loop overlap), run triggering-accuracy evals with the `skill-creator` skill and tighten descriptions. Undertriggering is the main risk.
+
 ---
 
 ## Repository layout
