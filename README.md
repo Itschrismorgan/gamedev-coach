@@ -25,7 +25,7 @@ Each skill hands off to the next, so a session in one phase points you to where 
 ## Install
 
 ```shell
-/plugin marketplace add CHRIS_GITHUB_USERNAME/gamedev-coach
+/plugin marketplace add Itschrismorgan/gamedev-coach
 /plugin install game-design@gamedev-coach
 ```
 
