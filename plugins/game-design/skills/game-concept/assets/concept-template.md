@@ -1,7 +1,13 @@
 # [Game Name] — Concept
 
 > *Status: Concept (pre-production, phase 1 of pipeline)*
-> *Last updated: [date]*
+
+## Revision trail
+> *The pipeline loops back — a later phase can send you here to revise. Each change is deliberate and leaves a mark.*
+
+- [date] — Created.
+
+---
 
 ## High-concept line
 [One sentence with the hook baked in. The thing you'd say in one breath.]
