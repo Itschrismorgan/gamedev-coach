@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "gamedev-coach",
+  "description": "A pipeline of Socratic game-design skills that coach a designer from a raw idea through pre-production — one question at a time.",
+  "owner": {
+    "name": "Chris Morgan"
+  },
+  "plugins": [
+    {
+      "name": "game-design",
+      "source": "./plugins/game-design",
+      "description": "Socratic coaching skills for the game-design process, starting at the concept phase. Drives the designer forward by asking focused questions and producing real design artifacts.",
+      "version": "0.1.0",
+      "category": "creativity",
+      "keywords": ["game-design", "gamedev", "concept", "pre-production", "coaching"]
+    }
+  ]
+}
