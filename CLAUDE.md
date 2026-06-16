@@ -8,9 +8,9 @@ The skills are intended for a college-level game-design student — someone with
 
 ## Current status / next action (pick up here)
 
-The marketplace and the first two skills (`game-concept`, `game-pillars`) are **built and pushed to GitHub** at https://github.com/Itschrismorgan/gamedev-coach (branch `main`).
+The marketplace and the first three skills (`game-concept`, `game-pillars`, `game-core-loop`) are **built and pushed to GitHub** at https://github.com/Itschrismorgan/gamedev-coach (branch `main`).
 
-Next build is the **`game-core-loop`** skill (phase 3 — see the pipeline table below). `game-pillars` already hands off to it.
+Next build is the **`game-gdd`** skill (phase 4 — see the pipeline table below). `game-core-loop` already hands off to it.
 
 **Pipeline shape (decided):** linear *with loop-backs* — a later phase can send the designer back to revise an earlier artifact (e.g. `game-scope` reopening `game-pillars`). Every skill from phase 2 on must therefore handle two entry states (fresh vs. revisit), point its handoff both forward and back, and write to a **revision trail** in its artifact. Scope stays at phase 5 (it's the reality gate that triggers loop-backs); the pipeline stays at five phases. The re-entry + loop-back pattern is established in `game-pillars` — follow it.
 
@@ -45,10 +45,14 @@ gamedev-coach/
 │           │   ├── SKILL.md
 │           │   └── assets/
 │           │       └── concept-template.md
-│           └── game-pillars/     # phase 2 skill
+│           ├── game-pillars/     # phase 2 skill
+│           │   ├── SKILL.md
+│           │   └── assets/
+│           │       └── pillars-template.md
+│           └── game-core-loop/   # phase 3 skill
 │               ├── SKILL.md
 │               └── assets/
-│                   └── pillars-template.md
+│                   └── core-loop-template.md
 ├── README.md
 ├── LICENSE
 └── CLAUDE.md                     # this file
@@ -66,11 +70,11 @@ Pre-production moves a fuzzy idea toward a spec concrete enough to prototype. Ea
 | :-- | :-- | :-- | :-- |
 | 1. Concept | `game-concept` | What is this game, and who's it for? | ✅ Built |
 | 2. Pillars | `game-pillars` | What must always be true about it? (2–4 commitments) | ✅ Built |
-| 3. Core loop | `game-core-loop` | What does the player repeat, second to second? | 🔜 Next |
-| 4. GDD | `game-gdd` | The living spec — systems, controls, progression, scope | 🔜 Planned |
+| 3. Core loop | `game-core-loop` | What does the player repeat, second to second? | ✅ Built |
+| 4. GDD | `game-gdd` | The living spec — systems, controls, progression, scope | 🔜 Next |
 | 5. Scope | `game-scope` | Is this buildable in the time available? | 🔜 Planned |
 
-`game-pillars` already hands off to `game-core-loop`, so that's the natural next build.
+`game-core-loop` already hands off to `game-gdd`, so that's the natural next build.
 
 ---
 

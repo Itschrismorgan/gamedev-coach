@@ -1,11 +1,11 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin.json",
   "name": "game-design",
-  "description": "Socratic coaching skills for the game-design process. Each skill drives a designer forward through one phase of pre-production by asking focused questions one at a time and producing a concrete design artifact. Covers concept and pillars today; more phases (core loop, GDD, scope) are added over time.",
-  "version": "0.2.0",
+  "description": "Socratic coaching skills for the game-design process. Each skill drives a designer forward through one phase of pre-production by asking focused questions one at a time and producing a concrete design artifact. Covers concept, pillars, and core loop today; more phases (GDD, scope) are added over time.",
+  "version": "0.3.0",
   "author": {
     "name": "Chris Morgan"
   },
-  "keywords": ["game-design", "gamedev", "concept", "pillars", "pre-production", "coaching", "socratic"],
+  "keywords": ["game-design", "gamedev", "concept", "pillars", "core-loop", "pre-production", "coaching", "socratic"],
   "license": "MIT"
 }
