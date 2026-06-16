@@ -9,10 +9,10 @@
     {
       "name": "game-design",
       "source": "./plugins/game-design",
-      "description": "Socratic coaching skills for the game-design process, covering the concept, pillars, and core-loop phases. Drives the designer forward by asking focused questions and producing real design artifacts.",
-      "version": "0.3.0",
+      "description": "Socratic coaching skills for the game-design process, covering the concept, pillars, core-loop, and GDD phases. Drives the designer forward by asking focused questions and producing real design artifacts.",
+      "version": "0.4.0",
       "category": "creativity",
-      "keywords": ["game-design", "gamedev", "concept", "pillars", "core-loop", "pre-production", "coaching"]
+      "keywords": ["game-design", "gamedev", "concept", "pillars", "core-loop", "gdd", "pre-production", "coaching"]
     }
   ]
 }
